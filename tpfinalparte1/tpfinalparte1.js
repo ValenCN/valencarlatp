@@ -1,5 +1,5 @@
-
 // PMIW - TP#FINAL - VALENTINA CARANCINI, CARLA CHOQUETOPA COM.3
+//Videos: Valentina: https://youtu.be/kk44itlpPHQ Carla:
 
 let pantalla;
 let opacidadPantalla = 0
@@ -93,7 +93,7 @@ function keyPressed() {
   if (key ==='-') {
     volActual-=0.1;
   }
-  volActual = constrain( volActual, 0, 1);
+  volActual = constrain(volActual, 0, 1);
   sonidoMusica.setVolume(volActual);
 
   // PASAR PANTALLA CON TECLA ================================
