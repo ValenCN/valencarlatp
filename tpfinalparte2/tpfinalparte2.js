@@ -1,6 +1,6 @@
 // CARANCINI VALENTINA, CHOQUETOPA CARLA, COMISIÓN 3
 // VIDEO: https://youtu.be/sPwM5dMWXRI
-
+//        https://youtu.be/iJyEmDsQmUY?si=-aXL7S1H4par1T0f
 let objJuego;
 let spritePersonaje, spriteEnemigo;
 let spriteEspejos = [];
@@ -44,3 +44,4 @@ function draw() {
 function mousePressed() {
   objJuego.press();
 }
+
